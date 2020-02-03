@@ -1,0 +1,59 @@
+comment from connors doc
+dont use the word 'novel'
+
+good i mpact to measure , setu p code to ultimate query to , some evaluations
+need to have sort of measurement infrastructure.
+
+don't know if it is practical. should spent some time to figure it out.
+SOoner we figure out there s a root cause to this, need to be sure this is the exact problem, 
+or there might be lot of performance problem throughout the application
+
+
+interpreting gantt chart of time series of things, low level view - only draw few rectangles,
+high level view - don't have to query all rectangles.
+
+covnert the gantt view to time series
+
+===============================================================
+Next week 
+brief on the existing implementation, when it says draw this part, what frontend do and what backend do and how they are affected with one another.
+
+
+
+measure the 
+not use the word exponentially. 
+3rd number modify it.
+
+logn time worth being recalculating 
+
+baseline (data loading had to 
+
+Midterm milestone - measure everything thats there, 
+1April - Have a understanding of making the current system slower
+understanding the performance profileing for frontend and also the backend 
+
+instrument the frontend 
+
+
+1. go thorugh beginiing to end , look at the profiler form web browser and backend and runtime analysis on python
+2. 
+
+fenwick tree - operations must be commutative and associative 
+
+
+1. understand what to measure
+2. query to solving the problem
+3. document
+
+
+Next week task
+-----------------------------------------
+--------- Read the paper, Carlos will send it
+Demonstration of the project, what frontend does, what backend does, 
+In writing, write a docuemnt and upload it on github adn link it on the source-code, 
+Create a .md file in github and share it with Carlos. and write the report. 
+
+<<<< Next thing >>>>>>
+measure things
+- Chrome profiler
+- timestamping within python code
