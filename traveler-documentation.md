@@ -1,4 +1,4 @@
-#### The Traveler Project
+### The Traveler Project
 The Traveler project is an integrated graph visualization system for asynchronous multi-task execution. It uses OTF2 trace data generated from a program
  execution on Phylanx, parses them, and represents them in different interactive views. Phylanx is a general purpose computation system of distributed arrays
   to enhance operations over large-scale distributed system. It is an actively-developed system to provide the benefits of distributed resources for data
@@ -7,8 +7,8 @@ The Traveler project is an integrated graph visualization system for asynchronou
     tasks in the HPX, a C++ standard library and asynchronous tasking runtime. The dependencies of each primitive are the arguments it needs to execute
      (which may be other primitives), data access operations, or any other constraints on variables the primitive uses.
      
-#### Traveler System Organization
-![Traveler System Architecture](https://github.com/sayefsakin/695C-spring-20-notes/misc_figures/traveler-architecture.png "Traveler System Architecture")
+### Traveler System Organization
+![Traveler System Architecture](https://github.com/sayefsakin/695C-spring-20-notes/blob/master/misc_figures/traveler-architecture.png "Traveler System Architecture")
 
 The Traveler project follows MVC (model-view-controller) design pattern for developing the user interface, partitioning programming logic, and
  backend data handling. While logic and components for the frontend (view and controller) are written on javascript and presented on an interactive web
@@ -16,7 +16,7 @@ The Traveler project follows MVC (model-view-controller) design pattern for deve
   ([LinekdState.js](https://github.com/hdc-arizona/traveler-integrated/blob/c80304293e60d380989ae1b4ba9c63416f64875f/static/models/LinkedState.js#L4)) is
    used on the frontend to speedup data handling.
    
-##### Backend
+#### Backend
 The backend tasks of the project is divided into two sub-tasks: bundling ([bundle.py](https://github.com/hdc-arizona/traveler-integrated/blob/master/bundle.py)) and serving ([serve.py](https://github.com/hdc-arizona/traveler-integrated/blob/master/serve.py)).
 
 1. Bundling
@@ -35,7 +35,7 @@ This OTF2 trace data was generated from a linear regression execution on Phylanx
 otf2-print data/lra_csv_2019-12-05/OTF2_archive/APEX.otf2 | less -S
 ```
 
-![Sample print from the OTF2 trace data](https://github.com/sayefsakin/695C-spring-20-notes/misc_figures/sample-otf2-print.PNG "Sample print of the OTF2 trace data")
+![Sample print from the OTF2 trace data](https://github.com/sayefsakin/695C-spring-20-notes/blob/master/misc_figures/sample-otf2-print.PNG "Sample print of the OTF2 trace data")
 
 This represents a sample print of the OTF2 trace data. In this trace file, each row contains the following attributes:
 - Event (Categorical) : {ENTER, LEAVE, METRIC} Indicating the arrival (ENTER) and departure (LEAVE) event of a particular primitive and relevant metric
