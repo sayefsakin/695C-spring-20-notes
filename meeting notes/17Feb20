@@ -1,0 +1,28 @@
+might have to take the min/median instead of avg (store these numbers seperately, find the perfromance at some percentile value)
+
+
+haven't done
+- implement in c
+- trash interpreter (like useing seperate vector with left and right value of binary search) (vectorize things)
+- minimize the total number of calls to c functions (can calculate one time for the search)
+
+
+visualize just the utilizzation thing (without the gantcharts stuffs)
+
+
+gerbage collector between c or python 
+we want all of these things in python and leave the computer to c 
+making a call to the memory allocation - is slow 
+
+could utlize a 3 contigeous arrays (ding **** ).
+
+look for library that allow to do the integration (python library : ctype, cmake or something like it --- google it)
+do dynamic allocaiton, assign in python and can be found in c
+(python cffi, swigg (software interface generator), 
+
+CFFI ython lib dot so file look into google
+
+
+=======left these for later=========
+boost library in c++,
+boost.python
