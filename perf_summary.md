@@ -14,7 +14,7 @@ SAT2 - SAT1 with binary search in C language.
 
 
 
-### View Loading
+### View Loading (ms)
 
 |                  | Scripting | Rendering | Painting | System | Idl | Total | Total-idl |
 |------------------|-----------|-----------|----------|--------|-----|-------|-----------|
@@ -61,3 +61,6 @@ SAT2 - SAT1 with binary search in C language.
 | http://127.0.0.1:8000/datasets/FIB23/intervals?begin | 718461343.8 | 722894909.9 | 4433566.105    | 240            |
 | http://127.0.0.1:8000/datasets/FIB23/intervals?begin | 1412210093  | 1416643660  | 4433566.105    | 1120           |
 | http://127.0.0.1:8000/datasets/FIB23/intervals?begin | 1196803146  | 1205559915  | 8756769.34     | 2080           |
+
+
+### Comments
