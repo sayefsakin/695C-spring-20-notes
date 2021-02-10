@@ -63,4 +63,3 @@ SAT2 - SAT1 with binary search in C language.
 | http://127.0.0.1:8000/datasets/FIB23/intervals?begin | 1196803146  | 1205559915  | 8756769.34     | 2080           |
 
 
-### Comments
